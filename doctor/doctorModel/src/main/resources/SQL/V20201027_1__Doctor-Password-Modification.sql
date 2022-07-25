@@ -1,0 +1,1 @@
+ALTER TABLE `curemetricdoctor`.`doctor` CHANGE COLUMN `password` `password` VARCHAR(250) NOT NULL ;

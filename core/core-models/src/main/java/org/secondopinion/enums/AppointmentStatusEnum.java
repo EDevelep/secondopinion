@@ -1,0 +1,5 @@
+package org.secondopinion.enums;
+
+public enum AppointmentStatusEnum {
+	NEW, ENTITY_PENDING, ENTITY_ACCEPTED, ENTITY_CANCELLED, PATIENT_CANCELLED, ENTITY_RESCHEDULED,PATIENT_RESCHEDULED
+}

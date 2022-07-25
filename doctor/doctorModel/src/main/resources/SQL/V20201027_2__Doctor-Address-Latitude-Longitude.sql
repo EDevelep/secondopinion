@@ -1,0 +1,1 @@
+ALTER TABLE `curemetricdoctor`.`address` ADD COLUMN `latitude` DOUBLE NULL AFTER `lastUpdatedTs`,ADD COLUMN `longitude` DOUBLE NULL AFTER `latitude`,ADD COLUMN `createdby` VARCHAR(45) NULL AFTER `longitude`,ADD COLUMN `creaetdDate` DATE NULL AFTER `createdby`;

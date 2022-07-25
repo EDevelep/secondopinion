@@ -1,0 +1,492 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:o="urn:schemas-microsoft-com:office:office"
+	xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta content="width=device-width" name="viewport" />
+<!--[if !mso]><!-->
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<style>
+body{font-family:arial;}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.col-md-6{flex: 0 0 50%;
+    max-width: 50%;}
+	
+ .modal-body{padding:20px; 
+    width: 560px;
+   }
+.inv-status {
+float: right; padding:20px;
+}
+.inv-client {
+float: left;
+font-size: 12px;
+}
+.ios .media-list.inv-list .item-link .item-title-row {
+padding: 0;
+background: transparent;
+}
+.inv-amount {
+color: #000 !important;
+font-size: 14px;
+font-weight: bold;
+}
+.ios .list.inv-list .item-inner:after {
+background: transparent;
+}
+.ios .list.inv-list ul {
+background: transparent;
+border: 0;
+}
+.list.inv-list li {
+background-color: #fff;
+border-top: 1px solid #e7e7e7;
+border-bottom: 1px solid #e7e7e7;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+margin-bottom: 15px;
+}
+.list.inv-list li:last-child {
+margin-bottom: 0;
+}
+.ios .list.inv-list ul:before, .ios .list.inv-list ul:after {
+background: transparent !important;
+}
+.ios .inv-list .badge {
+border-radius: 4px;
+font-size: 12px;
+font-weight: bold;
+height: 18px;
+line-height: 18px;
+min-width: 76px;
+padding: 0 10px;
+}
+table.inv-table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 100%;
+font-size: 12px;
+}
+table.inv-table tr td  {
+border: 0px solid #CFCFCF;
+border-collapse: collapse;
+padding: 8px 6px;border:1px solid #f6f6f6;margin-top:20px
+}
+.inv-table tr th {
+font-weight: 500;background:#f6f6f6;padding:10px;line-height:20px;
+font-size: 12px;
+}
+.inv-table tr td {
+text-align: left;
+color: #777777;
+}
+.inv-table tfoot tr td {
+border:0;
+border-bottom: 1px solid #CFCFCF;
+text-align: right;
+font-size: 12px;
+}
+.inv-table tfoot tr:last-child td {
+border:0;
+}
+.inv-table tfoot tr td b {
+font-weight: 500;
+color: #000;
+}
+.inv-section {
+font-size: 14px;
+}
+.inv-section h5 {font-weight: 500;font-size: 12px;margin: 0;}
+.invoice-details h5 {
+text-align: right;
+}
+.invoice-details h5 span {
+color: #777;
+font-size: 12px;
+font-weight: normal;
+display: block
+}
+.top-inv-col {
+display: flex;
+display: -webkit-flex;
+justify-content: space-between;
+-webkit-justify-content: space-between;
+border-bottom: 1px solid #CFCFCF;
+margin-bottom: 20px;
+}
+.inv-logo {
+margin-bottom: 10px;
+}
+.inv-logo img {
+width: 181px;
+}
+.invoice-info p {
+font-size: 10px;
+margin: 0;
+line-height: 1.6;
+}
+.order-details {
+float: right;
+text-align: right;
+}
+.order-details p {
+font-size: 12px;
+line-height: 1.6;
+margin-bottom: 2px;
+}
+.order-details span{
+color: #777777; 
+}
+.inv-receiver {
+font-size: 12px;
+margin-bottom: 12px;
+color: #777777; margin-left:0;    padding: 0;
+}
+
+.inv-receiver li{
+line-height: 1.6; list-style: none;
+}
+.payment-method {
+background-color: #F6F6F6;
+padding: 4px;
+font-size: 12px;
+line-height: 1.6;
+color: #777777;
+}
+.payment-method h5 {
+color: #000; margin:0;
+}
+.add-item {
+background-color: #3a57c4;
+border-radius: 3px;
+color: #fff !important;
+display: flex;
+font-size: 12px;
+font-weight: bold;
+justify-content: end;
+padding: 5px 10px;
+margin-right: 10px;
+}
+.add-item i {
+font-size: 16px;
+margin-right: 5px;
+}
+.remove-item {
+background-color: #d42129;
+border-radius: 3px;
+color: #fff !important;
+display: flex;
+font-size: 12px;
+font-weight: bold;
+padding: 5px;
+}
+.remove-item i {
+font-size: 16px;
+}
+.inv-total-table {
+width: 100%;
+}
+.discount-input {
+float: right;
+height: 30px !important;
+width: 100px !important;
+}
+.items-action {
+justify-content: start !important;
+}
+.ios .salary-list .badge {
+border-radius: 4px;
+font-size: 12px;
+height: 18px;
+line-height: 18px;
+min-width: 76px;
+padding: 0 10px;
+color: #fff !important;
+}
+.ios .salary-list.list .item-after {
+font-size: 12px;
+font-weight: bold;
+}
+.ios .list.salary-list .item-inner:after {
+background: transparent;
+}
+.ios .list.salary-list ul {
+background: transparent;
+border: 0; margin:0;
+}
+.list.salary-list li {
+background-color: #fff;
+border-top: 1px solid #e7e7e7;
+border-bottom: 1px solid #e7e7e7;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+margin-bottom: 15px; list-style: none;
+}
+.list.salary-list li:last-child {
+margin-bottom: 0;
+}
+
+.pull-right {
+float: right;
+}
+.salary-amount {
+font-size: 12px;
+}
+.invoices {
+background-color: #F6F6F6;
+padding: 5px 0 20px;
+}
+.invoice-id {
+font-size: 13px;
+}
+.date-col {
+color: #858585;
+font-size: 12px;
+}
+.date-col i {
+vertical-align: middle;
+margin-right: 2px;
+}
+.invoices .pat-info-left {
+align-items: center;
+-webkit-align-items: center;
+width: 75%;
+}
+.pat-info-right {
+width: 24%;
+text-align: right;
+}
+.pat-info-right .price,
+.pat-info-right .view-btn {
+float: right;
+width: 100%;font-size: 13px;
+font-weight: bold;
+}
+.pat-info-right .view-btn .btn {
+display: inline-block;
+background-color: #0DD8F9;
+border-radius: 50px;
+font-size: 10px;
+color: #fff;
+padding: 4px 14px 2px;
+margin-top: 10px;
+}
+.invoice-widget {
+display: flex;
+display: -webkit-flex;
+align-items: center;
+-webkit-align-items: center;
+}
+.payment-method ul{padding:0; margin-left:0}
+.payment-method ul li{list-style: none;}
+.pat-info-left {
+align-items: center;
+-webkit-align-items: center;
+width: 75%;
+}
+.btn-primary {
+    background-color: #153b64;
+    border-color: #0d2948; cursor:pointer; border:0;
+    color: #fff;
+}
+.btn-group-xs>.btn, .btn-xs {
+    padding: .25rem .75rem;
+    font-size: .76rem;
+    line-height: 1.3;
+}.btn {
+    /* border-radius: 50px; */
+    outline: initial!important;
+    box-shadow: none;
+    font-size: .8rem;
+    padding: .75rem 1.3rem .6rem;
+}
+
+
+.product {
+width:600px; margin:0 auto;
+  position: relative;
+  z-index: 90;
+}
+
+
+
+.ribbon-wrapper {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: 0px;
+}
+.ribbon-wrapper .ribbon {
+  font: bold 15px sans-serif;
+  color: #333;
+  text-align: center;
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  position: relative;
+  padding: 7px 0;
+  top: 15px;
+  right: 0;
+  width: 120px;
+  background-color: #28a745;
+  color: #fff;
+}
+
+
+
+.ribbon-wrapper .ribbon-cancel {
+  font: bold 15px sans-serif;
+  color: #333;
+  text-align: center;
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  position: relative;
+  padding: 7px 0;
+  top: 15px;
+  right: 0;
+  width: 120px;
+  background-color: #db0101;
+  color: #fff;
+}
+</style>
+<body>
+	<!-- Section-3 -->
+	<table
+		class="table_full editable-bg-color bg_color_e6e6e6 editable-bg-image"
+		bgcolor="#153b64" width="100%" align="center"
+		mc:repeatable="castellab" mc:variant="Header" cellspacing="0"
+		cellpadding="0" border="0">
+		 
+		<tr>
+			<td>
+				<!-- container -->
+				<div class="product">
+				<div class="ribbon-wrapper">
+    <div class="ribbon">Paid</div>
+  </div>
+  
+				<table class="table1 editable-bg-color bg_color_ffffff"
+					bgcolor="#ffffff" width="600" class="product" align="center" border="0"
+					cellspacing="0" cellpadding="0" style="margin: 0 auto;">
+					<!-- padding-top -->
+					<tr>
+						<td > <div  class="modal-body" id="contentToConvert">
+   <div  class="block inv-section">  <div  class="top-inv-col">
+     
+         <div  class="">
+           <b> Dear Bala Raju,</b><br><br>
+Your order was succesufully placed Please check the invoice<br><br>
+         </div>
+      </div>
+	  
+      <div  class="top-inv-col">
+         <div  class="inv-logo"><img  alt="" src="https://beta.cure-metric.com/assets/landing/images/logo-img.png"></div>
+         <div  class="order-details">
+            <p >Order: <span >60</span></p>
+            <p >Issued: <span >17-Sep-2021</span></p>
+         </div>
+      </div> 
+
+	
+      <div  class="row">
+         <div  class="col-md-6">
+            <h5 >Invoice From</h5>
+            <ul  class="inv-receiver">
+               <li  class="">Dr.Suresh<br > Sachivalayam street, ,Chirala, <br > Andhra Pradesh, IN,523187</li>
+            </ul>
+			   
+          
+         </div>
+         <div  class="col-md-6">
+        <h5 >Invoice To</h5>
+            <ul  class="inv-receiver">
+               <li  class="">Ganesh Buddir<br > Ramalayam street,,Chirala<br > Andhra Pradesh, IN,523187 </li>
+            </ul>
+            <div > </div>
+         </div>
+      </div>
+      <table  class="inv-table">
+         <tbody >
+            <tr style="background:#F6F6F6;padding:14px;text-align:left" >
+               <th  class="text-align-left">Description</th>
+               <th  class="text-align-center">Quantity</th>
+               <th  class="text-align-center">VAT</th>
+               <th  class="text-align-center float-right">Total</th>
+            </tr>
+            <tr >
+               <td > Video Call Booking </td>
+               <td  class="text-align-center"></td>
+               <td  class="text-align-center"></td>
+               <td  class="text-align-center float-right"><i  aria-hidden="true" class="fa fa-inr"></i>&nbsp;300</td>
+            </tr>
+         </tbody>
+         <tfoot >
+            <tr >
+               <td  colspan="3"><b >Subtotal</b></td>
+               <td  colspan="1"><i  aria-hidden="true" class="fa fa-inr"></i>&nbsp;300</td>
+            </tr>
+            <tr >
+               <td  colspan="3"><b >Discount</b></td>
+               <td  colspan="1"><i  aria-hidden="true" class="fa fa-inr"></i>&nbsp;0</td>
+            </tr>
+            <tr >
+               <td  colspan="3"><b >Total Amout:</b></td>
+               <td  colspan="1"><i  aria-hidden="true" class="fa fa-inr"></i>&nbsp;300</td>
+            </tr>
+         </tfoot>
+      </table>
+      <div  class="invoice-info"><button  class="btn btn-primary btn-xs float-right"><i  class="fa fa-file-download" aria-hidden="true"></i> Download Invocie</button></div>
+   </div>
+</div></td>
+					</tr>
+
+				 
+				</table> <!-- END container -->
+			
+			</div>
+			</td>
+		</tr>
+
+	<tr>
+		<td>
+			<!-- container -->
+			<table class="table1 editable-bg-color bg_color_ffffff" bgcolor="#ffffff" width="600" align="center" border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto;">
+				<!-- padding-top -->
+				<tr style="background-color: #28a745;color: #ffffff;">
+					<td mc:edit="text031" align="center" class="text_color_a1a2a5" style=" font-size: 14px;line-height: 2; font-weight: 500; font-family: lato, Helvetica, sans-serif; mso-line-height-rule: exactly;">
+<div class="editable-text" style="line-height: 2;">
+<span class="text_container">
+<multiline>
+Need support? Mail us <a href="mailto:support@cure-metric.com" class="text_color_303f9f" style="color:#fff; text-decoration: none;">support@cure-metric.com</a>
+</multiline>
+</span>
+													   </div>
+												   </td>
+											   </tr>
+
+
+<tr style="background-color: #153b64;color: #ffffff;">
+<td mc:edit="text031" align="center" class="text_color_a1a2a5" style=" font-size: 14px;line-height: 2; font-weight: 500; font-family: lato, Helvetica, sans-serif; mso-line-height-rule: exactly;">
+	© 2021  All Rights Reserved.
+</td>
+</tr>
+				</table>
+
+				</td>
+				</tr>
+	</table>
+	<!-- END wrapper -->
+</body>
+</html>

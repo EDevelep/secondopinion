@@ -1,0 +1,71 @@
+$$PACKAGE$$;
+
+import java.util.ArrayList;
+
+import org.jboss.seam.ScopeType;
+import org.jboss.seam.annotations.Logger;
+import org.jboss.seam.annotations.Name;
+import org.jboss.seam.annotations.Scope;
+import org.jboss.seam.log.Log;
+
+import com.vcube.common.dto.$$TABLE$$;
+import com.vcube.dataaccess.dao.$$TABLE$$DAO;
+import com.vcube.spring.DAOFactory;
+
+@Scope(ScopeType.PAGE)
+@Name("$$TABLE$$Action")
+public class $$TABLE$$Action extends BaseAction<$$TABLE$$> {
+    @Logger
+    Log log;
+
+    public $$TABLE$$ get$$TABLE$$() {
+	return getEntity();
+    }
+
+    public $$TABLE$$ getSelected$$TABLE$$() {
+	return getSelectedItem();
+    }
+
+    public void select$$TABLE$$($$TABLE$$ $$TABLE1$$) {
+	setSelectedItem($$TABLE$$1);
+
+    }
+
+    @Override
+    protected final void saveInformation() {
+	if (!this.selectedItem.isFromDb()) {
+	//TODO: Add these methods
+	   // getDao().create$$TABLE$$(selectedItem);
+	} else {
+	//TODO: Add these methods
+	    //getDao().update$$TABLE$$(selectedItem);
+	}
+    }
+
+   
+    public void addNew$$TABLE$$() {
+	setSelectedItem(getNewEntity());
+    }
+
+    /*public void add$$TABLE$$Ext() {
+	selectedItem.addNewExt();
+    }
+
+    public void cancel$$TABLE$$Ext() {
+	if (selectedItem.isFromDb())
+	    selectedItem.setExts(DAOFactory.getDAO($$TABLE$$ExtDAO.class, DAOFactory.HIBERNATE_IMPL).findByProperty($$TABLE$$Ext.FIELD_$$TABLE$$_ID, selectedItem.get$$TABLE$$Id()));
+	else
+	    selectedItem.setExts(new ArrayList<$$TABLE$$Ext>());
+    }*/
+
+    @Override
+    protected $$TABLE$$DAO getDao() {
+	return DAOFactory.getDAO($$TABLE$$DAO.class, DAOFactory.HIBERNATE_IMPL);
+    }
+
+    @Override
+    protected $$TABLE$$ getNewEntity() {
+	return $$TABLE$$.getInstance();
+    }
+
+}

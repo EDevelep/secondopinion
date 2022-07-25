@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "app.driver.class",
+    "type": "java.lang.String",
+    "description": "A description for 'app.driver.class'"
+  },
+  {
+    "name": "app.hibernate.show_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'app.hibernate.show_sql'"
+  },
+  {
+    "name": "app.hibernate.hbm2ddlAuto",
+    "type": "java.lang.String",
+    "description": "A description for 'app.hibernate.hbm2ddlAuto'"
+  },
+  {
+    "name": "app.hibernate.hbm2ddlAuto",
+    "type": "java.lang.String",
+    "description": "A description for 'app.hibernate.hbm2ddlAuto'"
+  }
+]}

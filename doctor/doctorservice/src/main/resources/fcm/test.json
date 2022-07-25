@@ -1,0 +1,14 @@
+{
+	
+	
+  "type": "service_account",
+  "project_id": "curemetric-6dedb",
+  "private_key_id": "5f1a8e4f049680a240b472c5120adef290301d4c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCZD+zk58QgtV+6\nq3XghXyamnBAglZ2nIk28twaz/mdEyX2TuOq1JXDkiXSoQQvKtOhnJIdix9dfglk\nRL7RP3ZaiS+1G0mt3ZN08/tbSYPq5DqT+NRdwZmluTFR7E0nGy1EU+2iCkPgbp6q\nBWj+NPucxtsoPasNzk7hydZlwq6q2pvmPdfH8X4KKhkH2du25834V4Amsc2IczWV\nAnNCMFWpKHsMiFaV5IWBC8wrE2AktVJVaRUIoaOA3jJ6Z18dnIKNF1iKzMGRr7gj\nMfs69Jy223f0nxzgq6rM6aleWge7rSrzpnKx8AmpLWmKQlR8YdvT5xRItPTyV/5C\nu81wo6yLAgMBAAECggEAJ+V1R6M7xZTRO4x2wMu6k2ffC4mNtQQPZhG+moSMWUuE\n8SNWB5C66su87R6IQy0kFbOEiIvbZJi2JPsgS9WBaY7prwjKVzXyuiDga0aJyp+r\nvyc0X63XeVGA0AxKff+A+Jbx0XNghu7+j22ylNRFo3NX67DLVeFpQURFjKfGtIS4\nl1u2mlldzHCZguOJg3RSEUIfxvS2A+Qz7qfi3mkskViJpK+1VM8UetsqT+eA3naP\nCFjWDpuuLOWZKztcWm8iymwX/rPBolykFQifIdiYOvBRWsHAAuoClASbbjE0Llus\n7NdwKtYQsOXeLXk/leAVF8SaHwYKyQrK1n2z7EBz6QKBgQDQ38brsq+yLSthE7fv\nSXhWZCnkOv+n4iQV7r1hEdE5zcVMmAyS9rIXYU97XlTKUj2Hb+hnKEemV7C5li4l\nFIq4+zl/tM+1+hr128MOebfnvB7F3WswS/Pjeu2mGfBRBdd2IW1BGnSh4Ad5MXyY\n2eTlXTg/BFnWFM7Db5URwet0cwKBgQC7mItg+UGGPaJlv2F3T67ZuLn0DX9I4WN0\ndTsD18IR4D3IqJmOZgLplJR80Bqn3avPMuw8YUflfTkZt6OznuaQaXVT5bSB7ZUJ\nd8aAR0jMscbMpRbxyytnaKfWLVUUatyLEdV9t4x/JGH266jkLYEP2jANZy5h54fW\nfwLhVAh5iQKBgQDOXnpcP5SF10kHxgKyQgXKXXZiT8RuK+l5XgLwWDk/AkZQUd4C\nigkVPojYHDBsIWs3WGLnIQ4BlJxAENiQvEX/U//QZGXgpzZh+Xoz4CDKrbw9xHF2\nK2TROZB5zyD3/GyQA6C9dRUNJppbrIAtSQN1dm/vGy5jbPWIdMN04wLubwKBgQC5\noR76XGs8PKz/5bq6Zzzr8GEBYIG9SloxmPdGvC8rpSs97afVQphLLl0ojHxz82PZ\nadhdfx23tovUKOVyDiC0ccZJuJk/oCrD7aOct+0PsDK5ufrUVGiksOizhLQVuhB2\nBLWu6vu5q/TMczDyaRy25P57pMg+1O6Tj6b39UFVkQKBgEiJH1lcIC90WeGK4ZtB\nldfJnJjCnmjhil5ixYMvdEfEj61yiTDLg61jDYiQII9oiYyQyvefewdxMqbSplJH\nvbRSxVFI3soKDHin+TqJpp0ZRuNnpm8XwvH5f8xycXGOcCjeAvqvX9sXvB4O9PB+\nkQ/ii+6m4ZHliXkV7UeqG+0c\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-8q1zd@curemetric-6dedb.iam.gserviceaccount.com",
+  "client_id": "116394544624642356700",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-8q1zd%40curemetric-6dedb.iam.gserviceaccount.com"
+}

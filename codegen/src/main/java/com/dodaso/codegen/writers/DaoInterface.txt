@@ -1,0 +1,4 @@
+package com.dodaso.dataacess;
+
+public interface $$TABLE$$DAO extends PersistenceManager{
+}

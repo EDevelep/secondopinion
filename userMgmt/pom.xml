@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>secondopinion</artifactId>
+		<groupId>org.secondopinion</groupId>
+		<version>0.0.1</version>
+	</parent>
+
+	<artifactId>userMgmt</artifactId>
+	<groupId>org.secondopinion.userMgmt</groupId>
+	<packaging>pom</packaging>
+	<name>userMgmt</name>
+
+
+	<modules>
+		<module>userMgmtModel</module>
+		<module>userMgmtService</module>
+	</modules>
+</project>

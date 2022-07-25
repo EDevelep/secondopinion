@@ -1,0 +1,11 @@
+package com.dodaso.dto; 
+
+import javax.persistence.Embeddable;
+
+import com.dodaso.domain.Base$$TABLE$$Key;
+
+@SuppressWarnings({ "serial"})
+@Embeddable
+public class $$TABLE$$Key extends Base$$TABLE$$Key{
+	
+}

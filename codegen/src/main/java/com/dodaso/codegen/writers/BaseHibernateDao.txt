@@ -1,0 +1,42 @@
+package $$PACKAGE$$;
+
+import java.util.List;
+import java.util.Map;
+
+import com.dodaso.dao.$$TABLE$$DAO;
+import com.dodaso.dto.*;
+import com.dodaso.dao.hibernate.BaseHibernateDAO;
+
+import org.hibernate.Criteria;
+import org.hibernate.criterion.Criterion;
+
+/**
+ * @author Generated Code - Please DO NOT MODIFY.
+ * */
+public abstract class Base$$TABLE$$DAOHibernate extends BaseHibernateDAO<$$TABLE$$, $$KEYCLASS$$> implements $$TABLE$$DAO {
+	private static final String TABLE_CLASS = "$$TABLE$$";
+	
+	/* (non-Javadoc)
+	 * @see com.vcube.dataaccess.dao.hibernate.BaseHibernateDAO#getTableClassName()
+	 */
+	@Override
+	public String getTableClassName() {
+		return TABLE_CLASS;
+	}
+	
+	/* (non-Javadoc)
+	 * @see com.vcube.dataaccess.dao.hibernate.BaseHibernateDAO#getTableClass()
+	 */
+	@Override
+	public Class<$$TABLE$$> getTableClass() {
+		return $$TABLE$$.class;
+	}
+	
+		
+//	/* (non-Javadoc)
+//	 * @see com.vcube.dataaccess.dao.hibernate.IHibernateDAO#getCriteria()
+//	 */
+//	public Criteria getCriteria() {
+//		return super.getCriteria($$TABLE$$.class);
+//	}
+}
