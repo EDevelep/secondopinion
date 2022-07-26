@@ -20,7 +20,6 @@ public class InventoryServiceImpl implements InventoryService {
 	@Override
 	@Transactional
 	public void saveInventory(Inventory inventory) {
-		
 			inventoryDAO.save(inventory);
 		}
 
