@@ -20,16 +20,11 @@ public class InventoryServiceImpl implements InventoryService {
 	@Override
 	@Transactional
 	public void saveInventory(Inventory inventory) {
-		boolean flag = checkMedication(inventory.getDrugname());
-		if (flag == true) {
-			inventory.setActive('Y');
-			inventoryDAO.save(inventory);
-		} else {
-			// pharamcyElasticSerchRestAPIService.saveMedication(inventory);
+		
 			inventoryDAO.save(inventory);
 		}
 
-	}
+	
 
 	@Override
 	@Transactional
